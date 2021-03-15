@@ -1,0 +1,26 @@
+version: 1
+
+phases:
+  install:
+    commands:
+      - echo Installing Node ...
+      - curl -sL https://deb.nodesource.com/setup_14.x | bash -
+      - apt install nodejs
+      - echo Installing Npm...
+      - curl -L https://npmjs.org/install.sh | bash
+      - apt install --no-install-recommends npm
+  pre_build:
+    commands:
+      - echo Installing dependencies...
+      - npm
+  build:
+    commands:
+      - echo Testing...
+      - npm test
+      - echo Building...
+      - npm build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist

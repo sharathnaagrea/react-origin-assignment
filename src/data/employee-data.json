@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "firstname": "Sharath",
+    "lastname": "Naagrea",
+    "email": "sharath@gmail.com",
+    "mobile": "0414557896",
+    "city": "Melbourne"
+  },
+  {
+    "id": 2,
+    "firstname": "Neeraj",
+    "lastname": "Patel",
+    "email": "neerajp@yahoo.com",
+    "mobile": "0458996325",
+    "city": "Sydney"
+  },
+  {
+    "id": 3,
+    "firstname": "Swaroop",
+    "lastname": "Kumar",
+    "email": "swaroop@yahoo.com",
+    "mobile": "0458996387",
+    "city": "Brisbane"
+  },
+  {
+    "id": 4,
+    "firstname": "Jack",
+    "lastname": "M",
+    "email": "jackm@yahoo.com",
+    "mobile": "0458974526",
+    "city": "Sydney"
+  },
+  {
+    "id": 5,
+    "firstname": "Cliff",
+    "lastname": "K",
+    "email": "cliff@yahoo.com",
+    "mobile": "0425447821",
+    "city": "Melbourne"
+  },
+  {
+    "id": 6,
+    "firstname": "Tilak",
+    "lastname": "Narendra",
+    "email": "tilak@yahoo.com",
+    "mobile": "0415663248",
+    "city": "Sydney"
+  }
+]
